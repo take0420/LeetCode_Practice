@@ -1,8 +1,9 @@
-# nが正の数の場合、positive
-# nが負の数の場合、negative
-# nが0の場合、    0
+# 修正後の例
+# nが5より大きい場合、positive
+# nが0未満の場合、negative
+# nが0の場合、zero
 
-n = -3
+n = 5
 
 if n > 0:
     print("n is positive")
@@ -29,5 +30,3 @@ if not x > 0:
 
 if 0 < x < 10:
     print("n is between 0 and 10")
-
-
