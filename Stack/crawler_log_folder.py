@@ -1,5 +1,3 @@
-from typing import List
-
 class Solution:
     def minOperations(self, logs: List[str]) -> int:
         depth = 0
